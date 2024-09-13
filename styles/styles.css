@@ -1,4 +1,5 @@
 body {
+    border: black;
     margin: 0;
     padding: 0;
     background-color: whitesmoke
@@ -8,7 +9,12 @@ body {
 
 header {
     text-align: center;
-    border: solid black
+    background-color: rgb(254, 225, 230);
+
+}
+
+main {
+
 }
 
 h1 {
