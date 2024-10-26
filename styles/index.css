@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px 20px 20px;
+    background-color: white; /* Adjust the background color if needed */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px; /* Adjust size to your preference */
+    height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.profile span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Adjust color to match your theme */
+}
+
+.menubar {
+    display: flex;
+    gap: 50px;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 300px;
+    background-image: url();
+    height: 900px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.footer-links a, .footer-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover, .footer-nav a:hover {
+    color: #000;
+}
