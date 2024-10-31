@@ -13,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 200px 20px 20px;
-    background-color: white; /* Adjust the background color if needed */
+    background-color: rgb(66, 37, 112); /* Adjust the background color if needed */
 }
 
 .profile {
@@ -29,10 +29,18 @@ header {
     object-fit: cover;
 }
 
+.profile img:hover {
+    transform: scale(1.4);
+}
+
 .profile span {
     font-size: 18px;
     font-weight: bold;
-    color: #333; /* Adjust color to match your theme */
+    color: white; /* Adjust color to match your theme */
+}
+
+.profile span:hover {
+    transform: scale(1.1)
 }
 
 .menubar {
@@ -42,30 +50,36 @@ header {
 
 .menubar a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
 .hero {
     text-align: center;
-    padding: 300px;
-    background-image: url();
-    height: 900px;
+    padding: 200px;
+    background-image: url(https://img.pikbest.com/wp/202408/program-code-3d-rendering-of-abstract-purple-coding-background-with-mock-up-and-big-data-illuminating-the-concept-programming_9762612.jpg!sw800);
+    height: 500px;
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 2.0em;
     margin-bottom: 10px;
+    color: white;
+}
+
+.hero h1:hover {
+    transform: scale(1.5)
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
+    color: white;
 }
 
 .hero .btn {
     padding: 10px 20px;
-    background-color: black;
+    background-color: black(254, 254, 254);
     color: white;
     text-decoration: none;
     border-radius: 50px;
