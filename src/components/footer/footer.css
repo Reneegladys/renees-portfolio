@@ -1,0 +1,51 @@
+.footer {
+    margin: 100px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-left p {
+    font-size: 18px;
+    max-width: 400px;
+    color: #ddd;
+    font-family: Outfit;
+}
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 32px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.linkedin {
+    color: #004f9f; /* LinkedIn Blue */
+}
+
+.github {
+    color: #fffefe; /* GitHub Black */
+}
+
+.email {
+    color: #ffffff; /* Email White */
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.footer-bottom {
+    font-family: Outfit;
+}

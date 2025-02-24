@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/navbar";  
 import Hero from "./components/hero/hero";
 import About from "./components/about/about";
 import Projects from "./components/projects/projects"
 import Contact from "./components/contact/contact"
-
+import Footer from "./components/footer/footer"
 
 const App = () => {
 
@@ -15,6 +15,7 @@ return (
 <About/>
 <Projects/>
 <Contact/>
+<Footer/>
 
 
   </div>

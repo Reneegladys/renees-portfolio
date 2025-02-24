@@ -7,7 +7,8 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-title">
                     <h1>Get in touch</h1>
-                    <p>heeeeeeeeeeej i would be happy if uyo hdusdhdhishgishgifhgfdhgnfl</p>
+                    <p>Let’s connect! Whether you have a project idea, a question, or just want to chat about tech and life, I’d love to hear from you.
+                         Don’t hesitate—drop me a message, and let’s build something great together!</p>
                 </div>
                 <form className="contact-right">
                     <label htmlFor="">Your name</label>
