@@ -80,7 +80,7 @@
 }
 
 .contact-submit {
-    border: none;
+    border: 2px solid;
     color: white;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);

@@ -37,29 +37,37 @@ gap: 35px;
     align-items: center;
     gap: 25px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-bottom: 50px;
 }
 
-.hero-connect {
-    padding: 25px 45px;
+.hero-button-connect {
+    padding: 25px 75px;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
     cursor: pointer;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 25px;
 }
 
-.hero-resume {
+.hero-button-resume {
     padding: 25px 75px;
     border-radius: 50px;
-    border: 2px solid #fff;
-    cursor: pointer
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
 }
 
-.hero-connect:hover {
-    border: 2px solid white;
-}
+.hero-button-connect:hover {
+    background: linear-gradient(264deg, #b415ff -5.09%, #df8908 106.28%);
+    transform: scale(1.05);
+  }
+  
 
-
-.hero-resume:hover {
-    border-color: #b415ff
-}
+  .hero-button-resume:hover {
+    border-color: #b415ff;
+    transform: scale(1.05);
+  }

@@ -1,17 +1,14 @@
-import React from 'react'
-import './projects.css'
+import React from 'react';
+import './projects.css';
 
 const Projects = () => {
-
-    return (
-      <div className= 'mywork'>
-        <div className= 'mywork-title'>
-            <h1>My projects</h1>
-            <img src='/smallLogo.png' alt='logo'/>
-        </div>
+  return (
+    <div id="projects" className="mywork"> {/* 👈 Added id="projects" */}
+      <div className="mywork-title">
+        <h1>My projects</h1>
       </div>
-      
-    )
-    }
-    
-    export default Projects
+    </div>
+  );
+};
+
+export default Projects;
