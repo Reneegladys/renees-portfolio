@@ -1,5 +1,3 @@
-
-
 #skills {
     text-align: center;
     padding: 40px 20px;
@@ -40,14 +38,41 @@
 }
 
 /* GitHub Icon Color (Black or White depending on background) */
-.fab.fa-github {
-    color: #181717;
+.devicon-github-plain {
+    color: #ffffff;
 }
 
+/* Node.js Icon Color (Green) */
+.devicon-nodejs-plain {
+    color: #339933;
+}
 
+/* Express Icon Color (Black) */
+.devicon-express-original {
+    color: #2e2525;
+}
 
+/* React Icon Color (Cyan) */
+.devicon-react-original {
+    color: #61DAFB;
+}
 
+/* MongoDB Icon Color (Green) */
+.devicon-mongodb-plain {
+    color: #47A248;
+}
 
+/* Bash Icon Color (Black) */
+.devicon-bash-plain {
+    color: #4EAA25;
+}
 
+/* VSCode Icon Color (Blue) */
+.devicon-vscode-plain {
+    color: #007ACC;
+}
 
-
+/* Git Icon Color (Orange) */
+.devicon-git-plain {
+    color: #F05032;
+}

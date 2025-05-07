@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 300px 170px;
 }
 
 .about-title {
@@ -20,6 +20,11 @@
 .about-sections {
 display: flex;
 gap: 80px;
+}
+
+.about-left img {
+    height: 300px;
+    border-radius: 150px;
 }
 
 .about-right {
@@ -53,4 +58,18 @@ gap: 80px;
     min-width: 150px;
     font-size: 24px;
     font-weight: 500;
+}
+
+.about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df89 -5.09%, #b415ff 106.28%);
+}
+
+.about-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
