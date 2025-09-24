@@ -14,7 +14,7 @@
 .footer-top-left p {
     font-size: 18px;
     max-width: 400px;
-    color: #ddd;
+    color: #ffffff;
     font-family: Outfit;
 }
 
@@ -48,4 +48,6 @@
 
 .footer-bottom {
     font-family: Outfit;
+    margin-bottom: 10px;
 }
+

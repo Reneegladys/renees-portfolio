@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 300px 170px;
+    margin-top: 100px;
+    padding: 200px;
 }
 
 .about-title {
@@ -13,7 +14,7 @@
 
 .about-title h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
 
@@ -23,7 +24,7 @@ gap: 80px;
 }
 
 .about-left img {
-    height: 300px;
+    height: 250px;
     border-radius: 150px;
 }
 
@@ -37,7 +38,7 @@ gap: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 500;
 }
 

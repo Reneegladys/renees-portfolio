@@ -4,7 +4,6 @@ import './skills.css';
 const Skills = () => {
   return (
     <section id="skills">
-      <h2>Skills</h2>
       <div className="skills-container">
         <div className="skill">
           <i className="devicon-html5-plain"></i>

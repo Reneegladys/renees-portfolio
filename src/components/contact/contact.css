@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center; /* Center content */
     align-items: center;
-    margin: 300px 170px;
+    margin-left: 60px;
+    padding-top: 120px;
+
 }
 
 .contact-section {
