@@ -2,15 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 100px;
+  padding: 20px 100px;   /* replace margin with padding for fixed positioning */
+  position: fixed;        /* make it stick at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.8); /* optional: dark transparent background */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3); /* optional shadow */
 }
 
 .nav-logo {
-  font-family: 'Outfit';
+  font-family: 'Outfit', sans-serif;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-menu {
@@ -41,7 +48,8 @@
   transition: 0.3s ease-in-out;
   color: white;
   text-decoration: none;
-  border: 2px solid;
+  border: 2px solid transparent; /* optional fix */
+  margin-right: 120px;
 }
 
 .nav-connect-btn:hover {
