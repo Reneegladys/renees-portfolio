@@ -23,11 +23,11 @@ const Hero = () => {
           </button>
         </Link>
 
-        <a href='/cv-reneegladys-eng1.pdf' download className='hero-button-resume'>
+        <a href='/ReneegladysCVEng.pdf' download className='hero-button-resume'>
           Resume (English)
         </a>
 
-        <a href='/cv-reneegladys-sve1.pdf' download className='hero-button-resume'>
+        <a href='/ReneegladysCVSve.pdf' download className='hero-button-resume'>
           Resume (Swedish)
         </a>
       </div>
