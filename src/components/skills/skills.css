@@ -1,0 +1,80 @@
+#skills {
+    text-align: center;
+    padding: 40px 20px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.skill i {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* HTML Icon Color (Orange) */
+.devicon-html5-plain {
+    color: #E34F26;
+}
+
+/* CSS Icon Color (Blue) */
+.devicon-css3-plain {
+    color: #1572B6;
+}
+
+/* JavaScript Icon Color (Yellow) */
+.devicon-javascript-plain {
+    color: #F7DF1E;
+}
+
+/* GitHub Icon Color (Black or White depending on background) */
+.devicon-github-plain {
+    color: #ffffff;
+}
+
+/* Node.js Icon Color (Green) */
+.devicon-nodejs-plain {
+    color: #339933;
+}
+
+/* Express Icon Color (Black) */
+.devicon-express-original {
+    color: #2e2525;
+}
+
+/* React Icon Color (Cyan) */
+.devicon-react-original {
+    color: #61DAFB;
+}
+
+/* MongoDB Icon Color (Green) */
+.devicon-mongodb-plain {
+    color: #47A248;
+}
+
+/* Bash Icon Color (Black) */
+.devicon-bash-plain {
+    color: #4EAA25;
+}
+
+/* VSCode Icon Color (Blue) */
+.devicon-vscode-plain {
+    color: #007ACC;
+}
+
+/* Git Icon Color (Orange) */
+.devicon-git-plain {
+    color: #F05032;
+}
