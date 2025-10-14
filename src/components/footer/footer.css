@@ -37,10 +37,6 @@
     color: #fffefe; /* GitHub Black */
 }
 
-.email {
-    color: #ffffff; /* Email White */
-}
-
 .social-icon:hover {
     transform: scale(1.2);
     opacity: 0.8;

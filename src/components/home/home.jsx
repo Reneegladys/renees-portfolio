@@ -8,7 +8,7 @@ const Hero = () => {
       <img src='/myself.jpg' alt='Renée Gladys' />
       <h1><span>Hi, I'm Renée Gladys.</span></h1>
       <p>
-        Aspiring MERN stack developer with a strong foundation in MongoDB, Express, React, Node.js, JavaScript, HTML/CSS, agile development, testing, software packaging, deployment, and web security. I’m eager to apply my knowledge to real-world projects.
+        Aspiring Fullstack developer with a strong foundation in MongoDB, Express, React, Node.js, JavaScript, HTML/CSS, agile development, testing, software packaging, deployment, and web security. I’m eager to apply my knowledge to real-world projects.
         <br /><br />
         I’m a problem solver who thrives in collaborative environments and takes initiative to drive results. Clear communication, teamwork, and continuous learning are at the core of my approach.
         <br /><br />
